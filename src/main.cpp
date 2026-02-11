@@ -25,4 +25,20 @@ void setup() {
 
 void loop() {
     // write your code here
-}Q
+}
+/**
+ *@file main.cpp
+ *@brief Read temperature and humidity from a DHT11 sensor and display it on an SSD130
+ *@author Mayank
+ *@version 1.0
+ *@date 2026-02-11
+ *
+ *@details
+ * * This sketch initializes a DHT11 sensor and an I2C SSD1306 OLED (128x64) and continuously
+ * reads temperature and humidity values. Readings are printed to Serial (for debugging) and
+ * rendered on the OLED screen. If the OLED is not found during initialization the sketch
+ * halts in setup().
+ * * Hardware connections (typical):
+ * - DHT11 data pin to Arduino digital pin defined by DHTPIN (2)
+ * - SSD1306 I2C -> board I2C pins (SDA, SCL)
+ */
