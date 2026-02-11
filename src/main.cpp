@@ -121,7 +121,7 @@ void loop() {
 /**
  *@file main.cpp
  *@brief Read temperature and humidity from a DHT11 sensor and display it on an SSD130
- *@author Mayank
+ *@author Abhinav Kumar Sharma
  *@version 1.0
  *@date 2026-02-11
  *
